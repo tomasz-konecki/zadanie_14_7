@@ -3,7 +3,7 @@ var Contacts = React.createClass({
         items: React.PropTypes.array.isRequired,
     },
 
-    render: () => {
+    render() {
         var contacts = this.props.items.map((contact) => {
             return <Contact item={contact} key={contact.id} />
             });

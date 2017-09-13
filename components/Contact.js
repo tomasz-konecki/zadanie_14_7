@@ -3,7 +3,7 @@ var Contact = React.createClass({
         item: React.PropTypes.object.isRequired,
     },
 
-    render: () => {
+    render() {
         return (
             <li className={'contact-item'}>
                 <div className={'contact-picture'}>
