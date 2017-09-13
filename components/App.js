@@ -25,7 +25,7 @@ var contacts = [{
     },
 
     App = React.createClass ({
-        render() {
+        render: function() {
             return (
                 <div className={'app'}>
                     <ContactForm contact={contactForm} />
